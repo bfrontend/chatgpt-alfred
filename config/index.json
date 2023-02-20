@@ -41,7 +41,14 @@
       "ypos": 120
     }
   },
-  "userconfigurationconfig": [],
+  "userconfigurationconfig": [{
+    "variables": {
+      "APIKEY": "xxx"
+    },
+    "variablesdontexport": [
+      "APIKEY"
+    ]
+  }],
   "version": "1.0",
   "webaddress": "https://www.webxmsj.com"
 }
