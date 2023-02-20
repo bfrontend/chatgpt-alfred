@@ -1,0 +1,41 @@
+{
+  "name": "chatgpt-alfred",
+  "version": "0.0.1",
+  "description": "An alfred tool that uses chatgpt",
+  "main": "src/index.js",
+  "bin": {
+    "gpt": "./bin/index"
+  },
+  "scripts": {
+    "dev": "node ./src/index",
+    "build": "gulp build",
+    "build:bin": "gulp build:bin"
+  },
+  "keywords": [
+    "gulp",
+    "alfred",
+    "workflow"
+  ],
+  "author": "webxmsj",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^7.0.0",
+    "dotenv-safe": "^8.2.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-dir": "^1.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jszip": "^3.10.1",
+    "through2": "^4.0.2",
+    "vinyl": "^3.0.0",
+    "webpack": "^5.74.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "chatgpt": "^4.7.1",
+    "minimist": "^1.2.7",
+    "pkg": "^5.8.0",
+    "plist": "^3.0.6",
+    "unfetch": "^5.0.0",
+    "yamljs": "^0.3.0"
+  }
+}
