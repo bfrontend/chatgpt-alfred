@@ -41,14 +41,13 @@
       "ypos": 120
     }
   },
-  "userconfigurationconfig": [{
-    "variables": {
-      "APIKEY": "xxx"
-    },
-    "variablesdontexport": [
-      "APIKEY"
-    ]
-  }],
+  "userconfigurationconfig": [],
+  "variables": {
+    "OPENAI_API_KEY": "xxx"
+  },
+  "variablesdontexport": [
+    "OPENAI_API_KEY"
+  ],
   "version": "1.0",
   "webaddress": "https://www.webxmsj.com"
 }
