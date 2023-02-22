@@ -11,6 +11,7 @@ async function askQuestion(){
     items: [{
       title: res.text,
       type: 'text',
+      arg: res.text,
       valid: true
     }]
   }))
