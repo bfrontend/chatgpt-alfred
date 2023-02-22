@@ -4,13 +4,11 @@
 
 An alfred tool that uses chatgpt
 
-<!-- TODO: 兼容apikey 获取方式为 alfred 传入 user environment -->
+> The first version used the gpt-3
+> The gpt-3 is a previous version of the chatgpt training model
 
-```shell
-# First let's do a copy and call it .env
-cp .env.example .env
-# Enter the apikey you applied for
-```
+All you need to do is configure your environment variables in alfred
+![asdfasdf](https://user-images.githubusercontent.com/40289489/220497982-7761567e-171d-4565-a259-fb4a66a882ec.png)
 
 You can obtain your apikey at the following website
 [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
