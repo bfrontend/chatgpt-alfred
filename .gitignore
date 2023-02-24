@@ -11,5 +11,3 @@ lerna-debug.log*
 .env.test
 
 node_modules/
-
-gulpfile.js

@@ -1,4 +1,5 @@
-{
+module.exports = {
+  outputName: 'chatgpt',
   "bundleid": "com.webxmsj.chatgpt-alfred",
   "category": "Tools",
   "connections": {},

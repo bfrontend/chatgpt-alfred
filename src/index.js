@@ -1,4 +1,3 @@
-'use strict'
 const argv = process.argv.slice(2)
 import { ChatGPTAPI } from 'chatgpt'
 
