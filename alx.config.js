@@ -1,13 +1,34 @@
 module.exports = {
-  outputName: 'chatgpt',
+  "outputName": "chatgpt",
   "bundleid": "com.webxmsj.chatgpt-alfred",
   "category": "Tools",
-  "connections": {},
+  "connections": {
+    "6FB6CA6F-0D98-4FCB-BAC0-7D602EEBEDC5": [
+      {
+        "destinationuid": "F59B3122-1FEA-4A98-89C3-59048BA203F5",
+        "modifiers": 0,
+        "modifiersubtext": "",
+        "vitoclose": false
+      }
+    ]
+  },
   "createdby": "webxmsj",
   "description": "An alfred tool that uses chatgpt",
   "disabled": false,
   "name": "chatgpt-alfred",
   "objects": [
+    {
+      "config": {
+        "argumenttype": 0,
+        "keyword": "gpt",
+        "subtext": "",
+        "text": "咨询chatgpt",
+        "withspace": true
+      },
+      "type": "alfred.workflow.input.keyword",
+      "uid": "6FB6CA6F-0D98-4FCB-BAC0-7D602EEBEDC5",
+      "version": 1
+    },
     {
       "config": {
         "alfredfiltersresults": false,
@@ -16,17 +37,16 @@ module.exports = {
         "argumenttrimmode": 0,
         "argumenttype": 0,
         "escaping": 102,
-        "keyword": "gpt",
         "queuedelaycustom": 3,
         "queuedelayimmediatelyinitially": true,
         "queuedelaymode": 1,
         "queuemode": 1,
-        "runningsubtext": "询问中",
+        "runningsubtext": "",
         "script": "./index '{query}'",
         "scriptargtype": 0,
         "scriptfile": "",
         "subtext": "",
-        "title": "咨询chatgpt",
+        "title": "正在询问……",
         "type": 5,
         "withspace": true
       },
@@ -37,14 +57,18 @@ module.exports = {
   ],
   "readme": "一个支持在alfred中使用chatgpt的小工具",
   "uidata": {
+    "6FB6CA6F-0D98-4FCB-BAC0-7D602EEBEDC5": {
+      "xpos": 70,
+      "ypos": 165
+    },
     "F59B3122-1FEA-4A98-89C3-59048BA203F5": {
-      "xpos": 115,
-      "ypos": 120
+      "xpos": 300,
+      "ypos": 165
     }
   },
   "userconfigurationconfig": [],
   "variables": {
-    "OPENAI_API_KEY": "xxx"
+    "OPENAI_API_KEY": "sk-xxx"
   },
   "variablesdontexport": [
     "OPENAI_API_KEY"

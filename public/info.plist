@@ -7,7 +7,21 @@
     <key>category</key>
     <string>Tools</string>
     <key>connections</key>
-    <dict/>
+    <dict>
+      <key>6FB6CA6F-0D98-4FCB-BAC0-7D602EEBEDC5</key>
+      <array>
+        <dict>
+          <key>destinationuid</key>
+          <string>F59B3122-1FEA-4A98-89C3-59048BA203F5</string>
+          <key>modifiers</key>
+          <integer>0</integer>
+          <key>modifiersubtext</key>
+          <string/>
+          <key>vitoclose</key>
+          <false/>
+        </dict>
+      </array>
+    </dict>
     <key>createdby</key>
     <string>webxmsj</string>
     <key>description</key>
@@ -18,6 +32,27 @@
     <string>chatgpt-alfred</string>
     <key>objects</key>
     <array>
+      <dict>
+        <key>config</key>
+        <dict>
+          <key>argumenttype</key>
+          <integer>0</integer>
+          <key>keyword</key>
+          <string>gpt</string>
+          <key>subtext</key>
+          <string/>
+          <key>text</key>
+          <string>咨询chatgpt</string>
+          <key>withspace</key>
+          <true/>
+        </dict>
+        <key>type</key>
+        <string>alfred.workflow.input.keyword</string>
+        <key>uid</key>
+        <string>6FB6CA6F-0D98-4FCB-BAC0-7D602EEBEDC5</string>
+        <key>version</key>
+        <integer>1</integer>
+      </dict>
       <dict>
         <key>config</key>
         <dict>
@@ -33,8 +68,6 @@
           <integer>0</integer>
           <key>escaping</key>
           <integer>102</integer>
-          <key>keyword</key>
-          <string>gpt</string>
           <key>queuedelaycustom</key>
           <integer>3</integer>
           <key>queuedelayimmediatelyinitially</key>
@@ -44,7 +77,7 @@
           <key>queuemode</key>
           <integer>1</integer>
           <key>runningsubtext</key>
-          <string>询问中</string>
+          <string/>
           <key>script</key>
           <string>./index '{query}'</string>
           <key>scriptargtype</key>
@@ -54,7 +87,7 @@
           <key>subtext</key>
           <string/>
           <key>title</key>
-          <string>咨询chatgpt</string>
+          <string>正在询问……</string>
           <key>type</key>
           <integer>5</integer>
           <key>withspace</key>
@@ -72,12 +105,19 @@
     <string>一个支持在alfred中使用chatgpt的小工具</string>
     <key>uidata</key>
     <dict>
+      <key>6FB6CA6F-0D98-4FCB-BAC0-7D602EEBEDC5</key>
+      <dict>
+        <key>xpos</key>
+        <integer>70</integer>
+        <key>ypos</key>
+        <integer>165</integer>
+      </dict>
       <key>F59B3122-1FEA-4A98-89C3-59048BA203F5</key>
       <dict>
         <key>xpos</key>
-        <integer>115</integer>
+        <integer>300</integer>
         <key>ypos</key>
-        <integer>120</integer>
+        <integer>165</integer>
       </dict>
     </dict>
     <key>userconfigurationconfig</key>
@@ -85,7 +125,7 @@
     <key>variables</key>
     <dict>
       <key>OPENAI_API_KEY</key>
-      <string>xxx</string>
+      <string>sk-xxx</string>
     </dict>
     <key>variablesdontexport</key>
     <array>
