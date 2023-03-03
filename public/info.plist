@@ -79,7 +79,7 @@
           <key>runningsubtext</key>
           <string/>
           <key>script</key>
-          <string>./index '{query}'</string>
+          <string>./index.js '{query}'</string>
           <key>scriptargtype</key>
           <integer>0</integer>
           <key>scriptfile</key>

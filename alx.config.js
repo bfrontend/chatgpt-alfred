@@ -42,7 +42,7 @@ module.exports = {
         "queuedelaymode": 1,
         "queuemode": 1,
         "runningsubtext": "",
-        "script": "./index '{query}'",
+        "script": "./index.js '{query}'",
         "scriptargtype": 0,
         "scriptfile": "",
         "subtext": "",
