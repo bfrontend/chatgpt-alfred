@@ -20,6 +20,6 @@
     "@webxmsj/alx": "^1.0.3"
   },
   "dependencies": {
-    "chatgpt": "^4.7.1"
+    "chatgpt": "^5.0.5"
   }
 }
